@@ -1,10 +1,12 @@
-namespace workspace.json;
-
-public class nguyenchithanh
+using System.ComponentModel.DataAnnotations;
+namespace KiemTraMVC.Models
 {
-    public string? ID { get; set; }
+    public class nguyenchithanh
+    {
+        public string ID { get; set; }
 
-    public string? email { get; set; }
-    
-     public string? HoVaTen { get; set; }
+        public string Email { get; set; }
+
+        public string HoVaTen { get; set; }
+    }
 }

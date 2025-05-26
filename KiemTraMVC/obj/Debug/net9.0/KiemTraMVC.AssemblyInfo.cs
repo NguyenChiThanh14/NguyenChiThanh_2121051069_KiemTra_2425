@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KiemTraMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00051c0f72fde8955cf2e4abd75202a0b490b166")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbdea123eedd1347bbb0e6c5e43b723244d82363")]
 [assembly: System.Reflection.AssemblyProductAttribute("KiemTraMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KiemTraMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
