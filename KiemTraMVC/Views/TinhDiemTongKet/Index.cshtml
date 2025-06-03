@@ -1,0 +1,24 @@
+@model KiemTraMVC.Models.TinhDiemTongKet
+
+<h2>Tính điểm tổng kết</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>Nhập điểm A</label>
+        <input asp-for="number1" type="number" required />
+    </div>
+    <div>
+        <label>Nhập điểm B</label>
+        <input asp-for="number2" type="number" required />
+    </div>
+    <div>
+        <label>Nhập điểm C</label>
+        <input asp-for="number3" type="number" required />
+    </div>
+    <button type="submit">Tính điểm</button>
+</form>
+
+@if (ViewBag.KetQua != null)
+{
+    <h3>Điểm tổng kết của bạn là: @ViewBag.KetQua</h3>
+}

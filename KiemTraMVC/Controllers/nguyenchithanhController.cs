@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using KiemTraMVC.Data;
+using KiemTraMVC;
 using KiemTraMVC.Models;
+using KiemTraMVC.Data;
 
 namespace KiemTraMVC.Controllers
 {
@@ -54,7 +55,7 @@ namespace KiemTraMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Email,HoVaTen")] nguyenchithanh nguyenchithanh)
+        public async Task<IActionResult> Create([Bind("ID,Email,FullName")] nguyenchithanh nguyenchithanh)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +87,7 @@ namespace KiemTraMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("ID,Email,HoVaTen")] nguyenchithanh nguyenchithanh)
+        public async Task<IActionResult> Edit(string id, [Bind("ID,Email,FullName")] nguyenchithanh nguyenchithanh)
         {
             if (id != nguyenchithanh.ID)
             {

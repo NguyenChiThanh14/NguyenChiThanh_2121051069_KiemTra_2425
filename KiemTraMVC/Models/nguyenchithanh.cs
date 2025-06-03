@@ -1,12 +1,11 @@
 using System.ComponentModel.DataAnnotations;
-namespace KiemTraMVC.Models
+namespace KiemTraMVC.Models;
+
+public class nguyenchithanh
 {
-    public class nguyenchithanh
-    {
-        public string ID { get; set; }
-
-        public string Email { get; set; }
-
-        public string HoVaTen { get; set; }
-    }
+    public string ID { get; set; }
+    public string Email { get; set; }
+    public string FullName { get; set; }
+    
+    
 }

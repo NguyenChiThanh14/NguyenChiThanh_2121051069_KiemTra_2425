@@ -16,7 +16,7 @@ namespace KiemTraMVC.Migrations
                 {
                     ID = table.Column<string>(type: "TEXT", nullable: false),
                     Email = table.Column<string>(type: "TEXT", nullable: false),
-                    HoVaTen = table.Column<string>(type: "TEXT", nullable: false)
+                    FullName = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
